@@ -1,0 +1,68 @@
+*{
+  font-family: Trebuchet MS;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  --main-nav-color: darkred;
+  --secondary-nav-color: tan;
+} 
+
+.user-button {
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+}
+
+#two-column-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#user-column {
+border-right: solid black 1px;
+padding: 20px;
+}
+
+.selection-images {
+height: 150px;
+width: 150px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+text-justify: end;
+}
+
+#user-selection-image {
+  color: green;
+}
+#computer-selection-image {
+  color: green;
+}
+
+#computer-column {
+  padding: 20px;
+}
+
+#paper-button{
+  background-image: url("paper.png");
+}
+
+#rock-button{
+  background-image: url("rock.png");
+}
+
+#scissors-button{
+  background-image: url("scissors.png");
+
+}
