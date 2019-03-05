@@ -89,6 +89,8 @@ function score(outcome){
   } else if (outcome === "tie"){ 
     ties ++
     t.innerHTML = ties
+    document.getElementById("user-selection-image").innerHTML = ""
+    document.getElementById("computer-selection-image").innerHTML = ""
   } else {}
 
 }
